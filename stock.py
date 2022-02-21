@@ -9,11 +9,6 @@ import datetime
 from pylab import *
 from sklearn.model_selection import train_test_split
 
-
-
-
-
-
 def fun(stock,test,days,lconf,message):
 
     global f
@@ -48,8 +43,6 @@ def sgr():
 
 
 rt=Tk()
-
-
 
 rt.title("Stock Predictor")
 
